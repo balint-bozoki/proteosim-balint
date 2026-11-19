@@ -3,7 +3,7 @@ requires = ["setuptools>=69", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "proteosim_Balint"
+name = "proteosim_balint"
 version = "0.1.0"
 description = "This repository simulates a proteomics protocol in silico. It focuses on protein digestion and LC-MS analysis using Python functions to mimick an experimental workflow. The code is under active development."
 readme = "README.md"
@@ -19,4 +19,4 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["proteosim_Balint*"]
+include = ["proteosim_balint*"]
