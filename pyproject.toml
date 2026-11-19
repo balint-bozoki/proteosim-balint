@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proteosim_Balint"
+version = "0.1.0"
+description = "This repository simulates a proteomics protocol in silico. It focuses on protein digestion and LC-MS analysis using Python functions to mimick an experimental workflow. The code is under active development."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Bálint Bozóki", email="balint.bozoki@stud.uni-heidelberg.de" }]
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "pytest", 
+    "pandas", 
+    "matplotlib",
+    "pyteomics"
+]
+
+[tool.setuptools.packages.find]
+include = ["proteosim_Balint*"]
